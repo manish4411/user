@@ -1,0 +1,16 @@
+<div class="main">
+<h2 class="text-center mb-4">Login to proceed</h2>
+<div class="col-md-4 bg-w p-2 auto">
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <div class="col-md-10 auto">
+            <input type="text" class="form-control inputText" formControlName="user" placeholder="Username" required>
+        </div>
+        <div class="col-md-10 auto">
+            <input type="password" class="form-control inputText" formControlName="password" placeholder="Password" required>
+        </div>
+        <div class="col-md-2 auto">
+            <button type="submit" class="btn btn-primary">LOGIN</button>
+        </div>
+    </form>
+</div>
+</div>
