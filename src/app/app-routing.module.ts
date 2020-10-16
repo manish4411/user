@@ -11,7 +11,7 @@ const routes: Routes = [
   {path:'home', component:HomeComponent},
   {path:'camera', component:CameraComponent},
   {path:'reporting', component:ReportingComponent},
-  {path:'srtting', component:SettingComponent},
+  {path:'setting', component:SettingComponent},
 ];
 
 @NgModule({
